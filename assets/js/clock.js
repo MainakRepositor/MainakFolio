@@ -22,7 +22,7 @@ function showTime(){
     if(day == 6){
         day = 'Sat';
     }
-    if(day == 7){
+    if(day == 0){
         day = 'Sun';
     }
     
