@@ -5,7 +5,7 @@ My Portfolio Website 🤠
 <ol>
   <li>HTML5 👨‍💻</li>
   <li>CSS3 😍</li>
-  <li>Bootstrap5 🤩<li>
+  <li>Bootstrap5 🤩</li>
   <li>Bootstrap Vendors 😁</li>
   <li>Vanilla JavaScript, Particles-JS, Typed-JS 🤓</li>
   <li>FormSpree API 😉</li>
