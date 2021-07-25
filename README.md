@@ -30,4 +30,4 @@ My Portfolio Website 🤠
 
 ### Website is deployed [here](https://mainakfolio.netlify.app/) 😉😊
 
-Made with https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white ❤
+Made with [https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white]  ❤
