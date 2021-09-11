@@ -72,12 +72,12 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(3,3,3);
-  border-top-color: rgb(233, 229, 8);
-  border-bottom-color: rgb(189, 186, 23);
+  border: 6px solid rgb(10, 10, 10);
+  border-top-color: rgb(255, 251, 0);
+  
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
@@ -85,18 +85,22 @@ h1, h2, h3, h4, h5, h6 {
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+    filter: hue-rotate(360deg);
   }
 }
 
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+    filter: hue-rotate(360deg);
   }
 }
 
