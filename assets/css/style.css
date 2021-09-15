@@ -4,6 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #f1f4f7;
   background-color: #111;
+  overflow-x:hidden;
 }
 
 a {
