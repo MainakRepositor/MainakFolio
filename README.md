@@ -30,6 +30,6 @@ My Portfolio Website 🤠
 
 ### Website is deployed [here](https://mainakfolio.netlify.app/) 😉😊
 
-Made with ❤ by:
+Made with ❤ by: <br>
 ![text](https://user-images.githubusercontent.com/64016811/146664725-45c8508a-6447-4b52-b5e6-0e18bab70839.gif)
 
