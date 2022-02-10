@@ -9,16 +9,18 @@ body {
 }
 #saver
 {
-  font-size: 20px;
+  text-align: center;
+  font-size: 21px;
   color:rgb(255, 255, 255);
   font-style: italic;
   font-weight:bold;
 }
 #sav
 {
+  text-align: center;
   color:#111;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
 }
 h3
 {
@@ -293,7 +295,7 @@ body::-webkit-scrollbar-track {
   background: linear-gradient(rgb(10, 10, 10),rgb(7, 7, 3),rgb(5, 10, 4));        /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(225, 248, 143);    /* color of the scroll thumb */
+  background-color: rgb(251, 255, 0);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid rgb(71, 70, 66);  /* creates padding around scroll thumb */
 }
@@ -383,7 +385,7 @@ body::-webkit-scrollbar-thumb {
 #about #social-links a {
   font-size: 28px;
   display: inline-block;
-  color: #f5f8fa;
+  
   line-height: 0;
   margin-right: 20px;
   transition: 0.3s;
@@ -403,7 +405,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #about #social-links a:hover  {
-  color: #13bee9;
+  color: #079702;
   
 }
 #about .img-fluid
@@ -598,7 +600,8 @@ section {
   position: relative;
   text-align: center;
   border-radius: 20px;
-  background: rgb(167, 3, 145);
+  background: linear-gradient(45deg, rgb(223, 8, 187),blue);
+  border: 3px solid yellow;
   
 }
 
@@ -608,7 +611,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #05a0bb;
+  background: linear-gradient(90deg, rgb(251, 255, 0), rgb(245, 51, 3));
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -676,6 +679,60 @@ section {
   border-radius: 10px;
 }
 
+.skills .progress-bar:hover {
+  width: 5px;
+  height: 13px;
+  transition: .9s linear infinite;
+  background: linear-gradient(90deg, blue,rgb(0, 247, 255));
+  border-radius: 10px;
+}
+#slx
+{
+  
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(167, 167, 245), rgb(34, 220, 245) 50%, rgb(49, 97, 240) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    
+  
+}
+#slx:hover {
+  background-position: 0 100%;
+}
+
+#slx2
+{
+  
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(250, 6, 6);
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(245, 208, 0), rgb(255, 125, 50) 50%, rgb(255, 49, 49) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    
+  
+}
+#slx2:hover {
+  background-position: 0 100%;
+}
 #flush-collapseOn
 {
   
@@ -755,7 +812,13 @@ section {
   background: #fff;
   border: 2px solid #0563bb;
 }
+/*certificate*/
 
+#certi
+{
+  justify-content: center;
+  
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1457,3 +1520,4 @@ iframe{
 #footer .credits {
   font-size: 13px;
 }
+
