@@ -5,6 +5,28 @@ body {
   color: #f1f4f7;
   background-color: #111;
   overflow-x:hidden;
+  
+}
+#saver
+{
+  font-size: 20px;
+  color:rgb(255, 255, 255);
+  font-style: italic;
+  font-weight:bold;
+}
+#sav
+{
+  color:#111;
+  font-weight: bold;
+  font-size: 22px;
+}
+h3
+{
+  color:rgb(255, 166, 0);
+}
+.dark-mode {
+  color: black;
+  background-color: white;
 }
 
 a {
@@ -53,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
+/*-------------------
+Theme Changer Button
+-------------------*/
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -453,7 +479,18 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #d5e1ec;
+  color: #ff7505;
+}
+
+.section-title-dark h2
+{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #000000;
 }
 
 .section-title h2::before {
@@ -536,14 +573,33 @@ section {
 .facts
 {
   font-size: 18px;
+  
 }
+#no-change
+{
+  color:white;
+}
+
 .facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgb(53, 51, 51);
+  border-radius: 20px;
+  background: rgb(35, 44, 75);
+}
+
+.facts .count-box:hover
+{
+  padding: 30px 30px 25px 30px;
+  margin-top: 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border-radius: 20px;
+  background: rgb(167, 3, 145);
+  
 }
 
 .facts .count-box i {
@@ -566,7 +622,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #d5d810;
+  color: #fffdfd;
 }
 
 .facts .count-box p {
@@ -597,7 +653,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #e8ecf0;
+  color: #17d811;
   font-size: 15px;
   
 }
@@ -639,7 +695,7 @@ section {
 }
 .resume b
 {
-  color:#f7ee70;
+  color:#1cb83d;
 }
 .resume .resume-title {
   font-size: 26px;
@@ -1088,6 +1144,10 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+#test
+{
+  color:#05a0bb;
+}
 .testimonials .section-header {
   margin-bottom: 40px;
 }
@@ -1113,7 +1173,7 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 17px;
-  color: rgb(175, 232, 247);
+  
   margin: 0 0 15px 0;
 }
 
@@ -1167,15 +1227,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
-.contact{
-  background-color: #2b2d2e;
-  border-radius: 20px;
-}
-#coo
-{
-  font-size: 18px;
-  color: #a7efff;
-}
+
+
 iframe{
   border-radius: 10px;
 }
@@ -1305,7 +1358,7 @@ iframe{
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: #1439dd;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1334,6 +1387,17 @@ iframe{
     transform: rotate(360deg);
   }
 }
+
+#resp
+{
+  font-size: 22px;
+}
+#resp:hover
+{
+  font-size: 22px;
+  color:#05bb3c;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
