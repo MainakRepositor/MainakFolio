@@ -62,12 +62,14 @@
     </div>
     
   </section><!-- End Hero -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   
   <main id="main">
 
-<marquee id="saver">Congratulations! You are saving 42% of your device battery by using Dark Mode. You can switch theme by pressing on the <i class="bx bx-sun"></i> icon from the control panel.</marquee>
+<p id="saver">Dark Mode saves 42% of your device energy. Click on <i id="dark" onclick="darkMode()" class="bx bx-sun"></i></p>
 
-<p id="sav">Save Energy. Click on <i class="bx bx-sun"></i></p>
+<p id="sav">Save Energy. Click on <i onclick="darkMode()" class="bx bx-sun"></i></p>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -91,8 +93,7 @@
                   <li><i class="bi bi-chevron-double-right"></i> <strong>Birthday:</strong> <span>17th April, 2001</span></li>
                   <li><i class="bi bi-chevron-double-right"></i> <strong>Website:</strong> <span>mainakfolio.netlify.app</span></li>
                   <li><i class="bi bi-chevron-double-right"></i> <strong>City:</strong> <span>Kolkata, India</span></li>
-                  <li><i class="bi bi-chevron-double-right"></i> <strong>Social Links:</strong></li>
-                </ul>
+                  </ul>
                 <div id="social-links">
                   <a href="https://twitter.com/leo_mainak" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://memerminati.blogspot.com/" target="_blank" class="blogger"><i class="bx bxl-blogger"></i></a>
@@ -106,10 +107,10 @@
                 <ul>
                   <li><i class="bi bi-chevron-double-right"></i> <strong>Degree:</strong> <span>B. Tech (3rd Year)</span></li>
                   <li><i class="bi bi-chevron-double-right"></i> <strong>Email ID:</strong> <span>mainakc24365@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-double-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                  <li><i class="bi bi-chevron-double-right"></i> <strong>Download My Resume:</strong></li>
+                  <li><i class="bi bi-chevron-double-right"></i> <strong>Presently interning At:</strong> <span><a href="https://zummitlabs.com/" target="_blank">Zummit Infolabs</a></span></li>
+                  </li><a class="btn btn-success" id="res" href="MCR.pdf" target="_blank" role="button" >Download Resume</a> &nbsp;&nbsp; <a class="btn btn-danger" id="res" href="https://certificater.netlify.app/" target="_blank" role="button" >View my certificates</a>
                 </ul>
-                <button id="res" type="button" onclick="document.location='MCR.pdf'" rel="noopener noreferrer" target="_blank" class="btn btn-success">Download Resume</button>
+                
               
               </div>
               <br>
@@ -184,30 +185,31 @@
         <div class="row skills-content">
 
           <div class="col-lg-6">
+            <h3 id="slx">Front-end Technologies</h3>
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">95%</i></span>
+              <span class="skill">HTML5 <i class="val">95%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">CSS3 <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <span class="skill">Bootstrap <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div> 
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
+              <span class="skill">ReactJS <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -217,6 +219,7 @@
 
           <div class="col-lg-6">
 
+            <h3 id="slx2">Back-end Technologies</h3>
             <div class="progress">
               <span class="skill">Python <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
@@ -232,7 +235,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">C++ <i class="val">80%</i></span>
+              <span class="skill">Django <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -251,39 +254,11 @@
 
       </div>
     </section><!-- End Skills Section -->
-
-    <!--Certificates and Dashboards-->
-    <div class="row skills-content">
-   
-    <div class="accordion accordion-flush" id="accordionFlushExample" >
-      <div class="accordion-item" >
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="background:#676569; color:aliceblue; align-items:center">
-            <b>Certificates</b>
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body" style="background:#241e2c; color:aliceblue">
-            <a id="cer" href="https://certificater.netlify.app/">Find my verified certificates here</a>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="background:#676569; color:aliceblue">
-            <b>Career Dashboards</b>
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" style="background:#241e2c; color:aliceblue" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">
-            <a id="cer" href="http://rpubs.com/DataMinati_MC/GitDash" target="_blank">Find my career dashboard here</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+    
   </div>
+
+
+
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -346,6 +321,7 @@
               <ul>
                 <li>Solved conventional problems of Data Science.</li>
                 <li>Notebook preparation and semantics were made easy.</li>
+                <li>Included multiple functionalities to facilitate ease of data interpretation and model generation with highest possible accuracy.</li>
               </ul>
              </div>
 
@@ -353,46 +329,52 @@
           </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4>DATA SCIENTIST INTERN</h4>
+              <h5>Nov,2021 - Jan,2021</h5>
+              <p><em>Dataly, (Worked remotely)</em></p>
+              <ul>
+                <li>Built a detailed user behaviour analysis dashbaord using <b>Hierarchical clustering</b> during the internship period.</li>
+                <li>Processed and analyzed Big Data using <b>Spark</b>.</li>
+                <li>Worked on techs like <b>Machine Learning, Google Cloud Platform, MySQL and Plotly</b>.</li>
+                <li>Followed industrial standards and practices, and helped to solve real-life business problems with analytics skills.</li>
+                
+              </ul>
+            </div>
+
             <div class="resume-item">
               <h4>MACHINE LEARNING INTERN</h4>
               <h5>Aug,2021 - Sept,2021</h5>
-              <p><em>iNeuron.ai, Bangalore, India</em></p>
+              <p><em>iNeuron.ai, (Worked remotely)</em></p>
               <ul>
+                <li>Worked on <b>Adult pension systems data</b> to predict gross annual pension amount for a given age group.</li>
                 <li>Built an end to end application during the internship period.</li>
                 <li>Worked on techs like <b>Machine Learning, Google Cloud Platform, Cassandra and Python</b>.</li>
                 <li>Followed industrial standards and practices thoughout.</li>
                 
               </ul>
             </div>
-            
+
+                       
             <div class="resume-item">
               <h4>WEB DEVELOPER INTERN</h4>
               <h5>July,2021 - Aug,2021</h5>
-              <p><em>Let's Grow More, Prayagraj, India</em></p>
+              <p><em>Let's Grow More, (Worked remotely)</em></p>
               <ul>
-                <li>Built three websites as a part of the internship programme.</li>
+                <li>Built three websites as a part of the internship programme, spanning three different domains.</li>
                 <li>Worked on techs like <b>HTML, CSS, JavaScript, ReactJS, SQL, PHP and Python</b>.</li>
                 <li>Worked in synchronization with deadlines and deployed the projects before the stipulated time.</li>
                 <li>Supervised the assessment of peers in order to ensure quality, provided technical assistance and ensured accuracy of the design.</li>
               </ul>
             </div>
 
-            <div class="resume-item">
-              <h4>DATA SCIENCE AND BUSINESS ANALYTICS INTERN</h4>
-              <h5>Feb,2021 - Mar,2021</h5>
-              <p><em>The Spark Foundation, Mumbai, India</em></p>
-              <ul>
-                <li>Collected data by scraping websites and processed them.</li>
-                <li>Performed in-depth analysis of the datasets provided by the company.</li>
-                <li>Worked with efficient <b>machine learning models like regressions, classifiers, clustering and reinforcement learning</b>, dashboards and visualizations to analyse and present the data in an easy understandable and attractive manner.</li>
-                <li>Followed industrial standards and practices thoughout.</li>
-              </ul>
-            </div>
+            
 
             <div class="resume-item">
               <h4>WEB DEVELOPER INTERN</h4>
               <h5>Nov,2020 - Jan,2021</h5>
-              <p><em>Arka Food Village, Telengana, India</em></p>
+              <p><em>Arka Food Village, (Worked remotely)</em></p>
               <ul>
                 <li>Developed a commercial website for the company from scratch using techs like <b>HTML5, CSS3, Bootstrap, JavaScript, Jquery, MySQL and PHP</b>.</li>
                 <li>Maintained a good communication with the company owners and worked following industrial standars, sticking to deallines and delivering quality products on time.</li>
@@ -707,8 +689,12 @@
     </div>
   </footer><!-- End Footer -->
 
+  
+
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
