@@ -127,7 +127,7 @@ Theme Changer Button
   0% {
     transform: rotate(0deg);
   }
-  100% {
+  50% {
     transform: rotate(360deg);
   }
 }
