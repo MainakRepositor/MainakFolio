@@ -12,7 +12,7 @@ body {
   text-align: center;
   font-size: 21px;
   color:rgb(255, 255, 255);
-  font-style: italic;
+  
   font-weight:bold;
 }
 #sav
@@ -43,6 +43,9 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+h2{
+  color:blue;
 }
 
 /*--------------------------------------------------------------
@@ -196,7 +199,7 @@ Theme Changer Button
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #fafbfc;
+  color: #fcfcfa;
   
   padding: 10px 18px;
   margin-bottom: 8px;
@@ -227,28 +230,29 @@ Theme Changer Button
   .nav-menu a span, .nav-menu a:focus span {
     display: none;
    
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
 }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   background: #1c7dd8;
 }
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
-  color: #fff;
+  color: rgb(255, 255, 255);
   
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
-  color: #fff;
+  color: rgb(255, 255, 255);
   
 }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
   display: block;
+  color:yellow;
 
 }
 
@@ -268,12 +272,13 @@ Theme Changer Button
   line-height: 0;
   cursor: pointer;
   border-radius: 50px;
+  color:yellow;
   padding: 5px;
   background-color: #111;
 }
 
 .mobile-nav-toggle i {
-  color: #f0f4f8;
+  color: #f8f8f0;
 }
 
 .mobile-nav-active {
@@ -285,7 +290,7 @@ Theme Changer Button
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(255, 255, 255);
   background-color: #2b0c64;
 }
 body::-webkit-scrollbar {
@@ -519,6 +524,114 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+
+figure {
+  background-color: #eee;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  position: relative;
+  font-size:16px;
+  font-size:1vw;
+  width: 40em;
+  padding-bottom: 40em;
+}
+figcaption {
+  font-size:1rem;
+  text-align:center;
+  color:#fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top:40%;
+  z-index:2;
+}
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+circle {
+	fill:rgba(0,0,0,0);
+  stroke-width:31.8309886184;
+  stroke-dasharray: 0,0,0,100;
+  stroke-dashoffset: 25;
+  -webkit-animation: pie1 3s infinite ease both;
+  animation: pie1 6s infinite ease both;
+}
+.pie1 {
+  stroke:hsl(180,70%,30%);
+}
+.pie2 {
+  stroke:hsl(180,70%,50%);
+  -webkit-animation-name: pie2;
+  animation-name: pie2;
+}
+.pie3 {
+  stroke:hsl(180,70%,20%);
+  -webkit-animation-name: pie3;
+  animation-name: pie3;
+}
+.pie4 {
+  stroke:hsl(180,0%,70%);
+  -webkit-animation-name: pie4;
+  animation-name: pie4;
+}
+/*
+ pie percentage made by stroke-dasharray.
+ stroke-dasharray format is...
+
+ keyframe 100% : 0 offset this-percentage rest
+
+ I added keyframe 50% for infinite presentation.
+*/
+
+
+
+
+
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, .7);
+  transition: all .4s;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__content {
+  border-radius: 4px;
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+  background: #fff;
+  padding: 1em 2em;
+}
+
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #585858;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -1520,4 +1633,44 @@ iframe{
 #footer .credits {
   font-size: 13px;
 }
+#social-links-2
+{
+  color:#05a0bb;
+}
+#social-links-2:hover
+{
+  color:#ff6600;
+}
+.modal #twt:hover
+{
+  color:#05a0bb;
+}
+.modal #blg:hover
+{
+  color:orange;
+}
+.modal #yt:hover
+{
+  color:red;
+}
+.modal #git:hover
+{
+  color:#0b023f;
+}
+.modal #lkd:hover
+{
+  color:#1439dd;
+  
+}
+.modal #wht:hover
+{
+  color:#07c310;
+  
+}
 
+#twt, #blg, #yt, #git, #lkd, #wht
+{
+  font-size: 40px;
+  color:black;
+  font-weight: bold;
+}
