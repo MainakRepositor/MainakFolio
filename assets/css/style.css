@@ -409,6 +409,22 @@ body::-webkit-scrollbar-thumb {
   
 }
 
+#tilt {
+  display: block;
+  height: 320px;
+  width: 300px;
+  
+  margin: 0 auto;
+  transition: box-shadow 0.1s, transform 0.1s;
+  
+ 
+}
+
+#tilt:hover {
+  
+  cursor: pointer;
+}
+
 #about #social-links a:hover  {
   color: #079702;
   
